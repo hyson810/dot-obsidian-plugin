@@ -1,0 +1,9 @@
+{
+  "id": "dot",
+  "name": "DOT",
+  "version": "0.1.0",
+  "minAppVersion": "1.11.4",
+  "description": "A lightweight habit tracker for Obsidian with built-in templates, project notes, and overview charts.",
+  "author": "DOT Community",
+  "isDesktopOnly": false
+}
