@@ -1,0 +1,18 @@
+{
+  "name": "obsidian-dot",
+  "version": "0.1.0",
+  "description": "DOT — A lightweight habit tracker for Obsidian",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.25.0",
+    "jsdom": "^29.1.1",
+    "obsidian": "latest",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.9"
+  }
+}
